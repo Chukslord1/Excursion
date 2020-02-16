@@ -8,4 +8,4 @@ sqlparse==0.3.0
 gunicorn==20.0.4
 WhiteNoise==5.0.1
 
-djangorestfamework
+djangorestframework
