@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'wkb@7-7)pa%(+tx&dh_vnwryf0k#$sgk2(agptu8(@0ea*bty%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'languages',
 ]
 
 MIDDLEWARE = [
@@ -73,11 +72,7 @@ TEMPLATES = [
 ]
 
 
-REST_FRAMEWORK = {
-  'DEFAULT_AUTHENTICATION_CLASSES': (
-    'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
-  ),
-}
+
 
 WSGI_APPLICATION = 'Excursion.wsgi.application'
 
