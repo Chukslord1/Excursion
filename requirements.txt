@@ -11,3 +11,4 @@ WhiteNoise==5.0.1
 djangorestframework
 django_mysql
 jsonfield
+languages
