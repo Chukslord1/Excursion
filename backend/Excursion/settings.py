@@ -25,7 +25,7 @@ SECRET_KEY = 'wkb@7-7)pa%(+tx&dh_vnwryf0k#$sgk2(agptu8(@0ea*bty%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vast-citadel-44206.herokuapp.com']
 
 
 # Application definition
