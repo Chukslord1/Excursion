@@ -1,6 +1,5 @@
 from django.db import models
 from django_mysql.models import ListCharField
-from languages.fields import LanguageField
 from django_mysql.models import ListTextField
 import jsonfield
 
